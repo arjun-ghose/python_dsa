@@ -9,8 +9,7 @@ class Node:
         Creates a new Node to be used within a Binary Search Tree.
         :param value: The value of the node
         """
-        logger.info(f'Creating new node with value - {value}')
         self.value: int = value
         self.left: Node | None = None
         self.right: Node | None = None
-        logger.info('Created new node successfully')
+        logger.info(f'Created new node with value {value} successfully')
